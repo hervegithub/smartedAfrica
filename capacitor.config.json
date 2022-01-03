@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "smarted",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
