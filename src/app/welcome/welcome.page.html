@@ -1,0 +1,17 @@
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts" loop="true">
+    <ion-slide *ngFor="let background of backgroundImages" [ngStyle]="{'background-image': 'url('+ background.image+')'}">
+      <div class="ion-padding slide-contain">
+        <img [src]="background.logo" alt="" *ngIf="background.id===1">
+        <h3>{{background.title}}</h3>
+        <hr>
+        <p>{{background.messages}}</p>
+        <div>
+          <ion-button class="ion-text-capitalize" fill="outline" shape="round" >Connexion</ion-button>
+          <ion-button class="ion-text-capitalize" fill="outline" shape="round" color="danger">Insciption</ion-button>
+        </div>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
