@@ -1,0 +1,87 @@
+ion-content{
+  --background: url('../../assets/background/register-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+p{
+  color: white;
+}
+
+.logo{
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons{
+  margin-bottom: -15px;
+
+}
+
+ion-item{
+ opacity: 0.3;
+ margin-top: 10px;
+ border-radius: 50px;
+ padding: 0;
+ margin-right: -10px;
+}
+
+ion-icon{
+  opacity: 1 !important;
+  padding: 0;
+  margin: 0;
+}
+
+.forms{
+  margin-top: 10%;
+}
+
+.signUp{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a{
+  color: #2286c9;
+  text-decoration: none;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+}

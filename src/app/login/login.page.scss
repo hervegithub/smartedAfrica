@@ -1,0 +1,49 @@
+ion-content{
+  --background: url('../../assets/background/login-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.logo{
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons{
+  margin-bottom: -15px;
+
+}
+
+ion-item{
+ opacity: 0.3;
+ margin-top: 10px;
+ border-radius: 50px;
+ padding: 0;
+ margin-right: -10px;
+}
+
+ion-icon{
+  opacity: 1 !important;
+  padding: 0;
+  margin: 0;
+}
+
+.forms{
+  margin-top: 60%;
+}
+
+.signUp{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a{
+  color: #2286c9;
+  text-decoration: none;
+}
